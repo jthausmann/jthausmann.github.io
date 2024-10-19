@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .image-section {
+            width: 30%; /* Adjusts the width of each section */
+            margin-bottom: 20px; /* Adds space between rows */
+            text-align: center; /* Centers text below images */
+        }
+        img, video {
+            width: 100%; /* Makes images and videos responsive */
+            height: auto; /* Maintains aspect ratio */
+            max-height: 200px; /* Sets a maximum height for consistency */
+            object-fit: cover; /* Ensures images cover the space without distortion */
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to Jake Hausmann's Marketing Portfolio</h1>
@@ -12,142 +30,142 @@
 
     <div class="image-gallery">
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/BobMarley.jpg" alt="Bob Marley" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/BobMarley.jpg" alt="Bob Marley">
             <p>Description for Bob Marley image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/BusinessClubPoster.png" alt="Business Club Poster" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/BusinessClubPoster.png" alt="Business Club Poster">
             <p>Description for Business Club Poster image.</p>
         </div>
         <div class="image-section">
-            <video controls style="max-width: 100%; height: auto;">
+            <video controls>
                 <source src="imagefolder/Graphics_Socials/BuyingTicketsVideo_SportsThread.mov" type="video/quicktime">
                 Your browser does not support the video tag.
             </video>
             <p>Description for Buying Tickets Video.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCare101.png" alt="Caster Care 101" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCare101.png" alt="Caster Care 101">
             <p>Description for Caster Care 101 image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCareE_Newsletter.png" alt="Caster Care E-Newsletter" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCareE_Newsletter.png" alt="Caster Care E-Newsletter">
             <p>Description for Caster Care E-Newsletter image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCentralAutoSolutions.png" alt="Caster Central Auto Solutions" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCentralAutoSolutions.png" alt="Caster Central Auto Solutions">
             <p>Description for Caster Central Auto Solutions image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCentralFloorLocks.png" alt="Caster Central Floor Locks" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCentralFloorLocks.png" alt="Caster Central Floor Locks">
             <p>Description for Caster Central Floor Locks image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCentralGuideE_Newsletter.png" alt="Caster Central Guide E-Newsletter" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCentralGuideE_Newsletter.png" alt="Caster Central Guide E-Newsletter">
             <p>Description for Caster Central Guide E-Newsletter image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCentralHandTrucks.png" alt="Caster Central Hand Trucks" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCentralHandTrucks.png" alt="Caster Central Hand Trucks">
             <p>Description for Caster Central Hand Trucks image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/CasterCentralTrashCasters.png" alt="Caster Central Trash Casters" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/CasterCentralTrashCasters.png" alt="Caster Central Trash Casters">
             <p>Description for Caster Central Trash Casters image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/DeluxeSystemsCasterKits.png" alt="Deluxe Systems Caster Kits" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/DeluxeSystemsCasterKits.png" alt="Deluxe Systems Caster Kits">
             <p>Description for Deluxe Systems Caster Kits image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/DeluxeSystemsLockers.png" alt="Deluxe Systems Lockers" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/DeluxeSystemsLockers.png" alt="Deluxe Systems Lockers">
             <p>Description for Deluxe Systems Lockers image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/DeluxeSystemsMaxSpace.png" alt="Deluxe Systems Max Space" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/DeluxeSystemsMaxSpace.png" alt="Deluxe Systems Max Space">
             <p>Description for Deluxe Systems Max Space image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/DeluxeSystemsMezzanines.png" alt="Deluxe Systems Mezzanines" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/DeluxeSystemsMezzanines.png" alt="Deluxe Systems Mezzanines">
             <p>Description for Deluxe Systems Mezzanines image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/DeluxeSystemsWorkbench.png" alt="Deluxe Systems Workbench" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/DeluxeSystemsWorkbench.png" alt="Deluxe Systems Workbench">
             <p>Description for Deluxe Systems Workbench image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/Morocco_Trip_Poster.png" alt="Morocco Trip Poster" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/Morocco_Trip_Poster.png" alt="Morocco Trip Poster">
             <p>Description for Morocco Trip Poster image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SCORENewsLetterTemplate.png" alt="SCORE Newsletter Template" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SCORENewsLetterTemplate.png" alt="SCORE Newsletter Template">
             <p>Description for SCORE Newsletter Template image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SCORESureveyForm.png" alt="SCORE Survey Form" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SCORESureveyForm.png" alt="SCORE Survey Form">
             <p>Description for SCORE Survey Form image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioDirtBike.png" alt="Saggio Dirt Bike" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioDirtBike.png" alt="Saggio Dirt Bike">
             <p>Description for Saggio Dirt Bike image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioEarth.png" alt="Saggio Earth" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioEarth.png" alt="Saggio Earth">
             <p>Description for Saggio Earth image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioFirework.png" alt="Saggio Firework" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioFirework.png" alt="Saggio Firework">
             <p>Description for Saggio Firework image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioIphone.png" alt="Saggio iPhone" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioIphone.png" alt="Saggio iPhone">
             <p>Description for Saggio iPhone image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioKey.png" alt="Saggio Key" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioKey.png" alt="Saggio Key">
             <p>Description for Saggio Key image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioMatrix.png" alt="Saggio Matrix" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioMatrix.png" alt="Saggio Matrix">
             <p>Description for Saggio Matrix image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioRoad.png" alt="Saggio Road" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioRoad.png" alt="Saggio Road">
             <p>Description for Saggio Road image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioRobotHand.png" alt="Saggio Robot Hand" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioRobotHand.png" alt="Saggio Robot Hand">
             <p>Description for Saggio Robot Hand image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioSnowboard.png" alt="Saggio Snowboard" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioSnowboard.png" alt="Saggio Snowboard">
             <p>Description for Saggio Snowboard image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SaggioSuperMarioBros.png" alt="Saggio Super Mario Bros" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SaggioSuperMarioBros.png" alt="Saggio Super Mario Bros">
             <p>Description for Saggio Super Mario Bros image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SportsThreadChart.png" alt="Sports Thread Chart" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SportsThreadChart.png" alt="Sports Thread Chart">
             <p>Description for Sports Thread Chart image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SportsThreadChart2.png" alt="Sports Thread Chart 2" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SportsThreadChart2.png" alt="Sports Thread Chart 2">
             <p>Description for Sports Thread Chart 2 image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SportsThreadTwitterPost.jpg" alt="Sports Thread Twitter Post" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/SportsThreadTwitterPost.jpg" alt="Sports Thread Twitter Post">
             <p>Description for Sports Thread Twitter Post image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/TicketingGifSportsThread.gif" alt="Ticketing GIF Sports Thread" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/TicketingGifSportsThread.gif" alt="Ticketing GIF Sports Thread">
             <p>Description for Ticketing GIF Sports Thread image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/Tiger.jpg" alt="Tiger" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/Tiger.jpg" alt="Tiger">
             <p>Description for Tiger image.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/VisitDuluthSunRise.png" alt="Visit Duluth Sunrise" style="max-width: 100%; height: auto;">
+            <img src="imagefolder/Graphics_Socials/VisitDuluthSunRise.png" alt="Visit Duluth Sunrise">
             <p>Description for Visit Duluth Sunrise image.</p>
         </div>
     </div>
