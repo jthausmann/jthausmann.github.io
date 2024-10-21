@@ -6,17 +6,17 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .image-gallery {
+        .image-gallery, .video-gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        .image-section {
+        .image-section, .video-section {
             width: 30%; /* Adjusts the width of each section */
             margin-bottom: 20px; /* Adds space between rows */
-            text-align: center; /* Centers text below images */
+            text-align: center; /* Centers text below images/videos */
         }
-        img, video {
+        img, video, iframe {
             width: 100%; /* Makes images and videos responsive */
             height: auto; /* Maintains aspect ratio */
             max-height: 550px; /* Sets a maximum height for consistency */
@@ -27,10 +27,8 @@
 <body>
     <h1>Welcome to Jake Hausmann's Marketing Portfolio</h1>
     
- <p> Duluth, MN, 55803 | <a href="mailto:jthausy@gmail.com">jthausy@gmail.com</a> | <a href="tel:+12184910547">218-491-0547</a> | <a href="https://www.linkedin.com/in/jakethausmann" target="_blank">LinkedIn.com/in/jakethausmann | <a href="JakeHausmann.Resume.DigitalMarketingSpecialist.2024.v3 (1).docx" download>Download Resume</a></a></p>
+    <p> Duluth, MN, 55803 | <a href="mailto:jthausy@gmail.com">jthausy@gmail.com</a> | <a href="tel:+12184910547">218-491-0547</a> | <a href="https://www.linkedin.com/in/jakethausmann" target="_blank">LinkedIn.com/in/jakethausmann</a> | <a href="JakeHausmann.Resume.DigitalMarketingSpecialist.2024.v3 (1).docx" download>Download Resume</a></p>
 
-    
-    </p>
     <p>I am a marketing professional that specializes in digital marketing, social media, graphic design, and analytics. This is a brief introduction to my work.</p>
 
     <div class="image-gallery">
@@ -42,7 +40,6 @@
             <img src="imagefolder/Graphics_Socials/BusinessClubPoster.png" alt="Business Club Poster">
             <p>Business club poster created in Canva.</p>
         </div>
-      
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCare101.png" alt="Caster Care 101">
             <p>Social Media Post created in Canva about a blog post Caster Central made to keep up with caster maintenance</p>
@@ -69,7 +66,7 @@
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCentralTrashCasters.png" alt="Caster Central Trash Casters">
-            <p>CSocial media post created in Canva about Trash Casters for Caste Central></p>
+            <p>Social media post created in Canva about Trash Casters for Caste Central</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/DeluxeSystemsCasterKits.png" alt="Deluxe Systems Caster Kits">
@@ -145,50 +142,60 @@
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/SportsThreadChart.png" alt="Sports Thread Chart">
-            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread.  This is intended for the sales team to help them close deals.</p>
+            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread. This is intended for the sales team to help them close deals.</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/SportsThreadChart2.png" alt="Sports Thread Chart 2">
-            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread.  This is intended for the sales team to help them close deals</p>
+            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread. This is intended for the sales team to help them close deals</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/SportsThreadTwitterPost.jpg" alt="Sports Thread Twitter Post">
-            <p>A post I created in Canva highlighting Sports Thread's event marketing services, additionally, I want to point out that they have amassed around 200K followers on X.</p>
+            <p>Twitter Post for Sports Thread</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/TicketingGifSportsThread.gif" alt="Ticketing GIF Sports Thread">
-            <p>GIF created in Canva made for gate administrators to instruct them on how to scan their tickets, seems easy but this just makes it that much more simple!</p>
+            <img src="imagefolder/Graphics_Socials/SportsThreadInstagramPost.jpg" alt="Sports Thread Instagram Post">
+            <p>Instagram Post for Sports Thread</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/Tiger.jpg" alt="Tiger">
-            <p>Description for Tiger image.</p>
+            <img src="imagefolder/Graphics_Socials/SportsThreadFacebookPost.jpg" alt="Sports Thread Facebook Post">
+            <p>Facebook Post for Sports Thread</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/VisitDuluthSunRise.png" alt="Visit Duluth Sunrise">
-            <p>Description for Visit Duluth Sunrise image.</p>
+            <img src="imagefolder/Graphics_Socials/SportsThreadLinkedInPost.jpg" alt="Sports Thread LinkedIn Post">
+            <p>LinkedIn Post for Sports Thread</p>
         </div>
     </div>
-<div class="video-section">
-    <h2>My YouTube Short</h2>
-    <iframe width="315" height="560" 
-            src="https://www.youtube.com/embed/8LJLfZAtAGI" 
-            title="YouTube Shorts video player" frameborder="0" 
-            allowfullscreen></iframe>
-    <p>Description of the YouTube Short goes here.</p>
-</div>
-<div class="video-section">
-    <h2>Another YouTube Short</h2>
-    <iframe width="315" height="560" 
-            src="https://www.youtube.com/embed/-AHHHVu_lSM" 
-            title="YouTube Shorts video player" frameborder="0" 
-            allowfullscreen></iframe>
-    <p>Description of the YouTube Short goes here.</p>
-</div>
 
+    <h2>Video Gallery</h2>
+    <div class="video-gallery">
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/7xFhWxwlMDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 1</p>
+        </div>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/vKnqOeJ0Hmc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 2</p>
+        </div>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/8VmOcCvnfg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 3</p>
+        </div>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/Af7KTzKqlIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 4</p>
+        </div>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/ZK8tW6DaflA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 5</p>
+        </div>
+        <div class="video-section">
+            <iframe src="https://www.youtube.com/embed/LoOsX41N16U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Description for Video 6</p>
+        </div>
+    </div>
 
-    <!-- Button to update the content -->
-    <button id="updateButton">Click Me!</button>
-
-    <script src="script.js"></script> <!-- Linking to JavaScript file -->
+    <footer>
+        <p>&copy; 2024 Jake Hausmann. All rights reserved.</p>
+    </footer>
 </body>
 </html>
