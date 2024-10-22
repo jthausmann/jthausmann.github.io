@@ -22,15 +22,23 @@
             max-height: 550px; /* Sets a maximum height for consistency */
             object-fit: cover; /* Ensures images cover the space without distortion */
         }
+        .video-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .video-section {
+            width: 48%; /* Sets each video to take up about half the container width */
+            margin-bottom: 20px; /* Adds space between rows */
+            text-align: center; /* Centers text below videos */
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to Jake Hausmann's Marketing Portfolio</h1>
     
- <p> Duluth, MN, 55803 | <a href="mailto:jthausy@gmail.com">jthausy@gmail.com</a> | <a href="tel:+12184910547">218-491-0547</a> | <a href="https://www.linkedin.com/in/jakethausmann" target="_blank">LinkedIn.com/in/jakethausmann | <a href="JakeHausmann.Resume.DigitalMarketingSpecialist.2024.v3 (1).docx" download>Download Resume</a></a></p>
+    <p>Duluth, MN, 55803 | <a href="mailto:jthausy@gmail.com">jthausy@gmail.com</a> | <a href="tel:+12184910547">218-491-0547</a> | <a href="https://www.linkedin.com/in/jakethausmann" target="_blank">LinkedIn.com/in/jakethausmann</a> | <a href="JakeHausmann.Resume.DigitalMarketingSpecialist.2024.v3 (1).docx" download>Download Resume</a></p>
 
-    
-    </p>
     <p>I am a marketing professional that specializes in digital marketing, social media, graphic design, and analytics. This is a brief introduction to my work.</p>
 
     <div class="image-gallery">
@@ -42,10 +50,9 @@
             <img src="imagefolder/Graphics_Socials/BusinessClubPoster.png" alt="Business Club Poster">
             <p>Business club poster created in Canva.</p>
         </div>
-      
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCare101.png" alt="Caster Care 101">
-            <p>Social Media Post created in Canva about a blog post Caster Central made to keep up with caster maintenance</p>
+            <p>Social Media Post created in Canva about a blog post Caster Central made to keep up with caster maintenance.</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCareE_Newsletter.png" alt="Caster Care E-Newsletter">
@@ -53,7 +60,7 @@
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCentralAutoSolutions.png" alt="Caster Central Auto Solutions">
-            <p>Social media post for Caster Central intended showcasing how casters can be used in the automotive  industry</p>
+            <p>Social media post for Caster Central showcasing how casters can be used in the automotive industry.</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCentralFloorLocks.png" alt="Caster Central Floor Locks">
@@ -69,7 +76,7 @@
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/CasterCentralTrashCasters.png" alt="Caster Central Trash Casters">
-            <p>CSocial media post created in Canva about Trash Casters for Caste Central></p>
+            <p>Social media post created in Canva about Trash Casters for Caster Central.</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/DeluxeSystemsCasterKits.png" alt="Deluxe Systems Caster Kits">
@@ -145,30 +152,19 @@
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/SportsThreadChart.png" alt="Sports Thread Chart">
-            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread.  This is intended for the sales team to help them close deals.</p>
+            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread. This is intended for the sales team to help them close deals.</p>
         </div>
         <div class="image-section">
             <img src="imagefolder/Graphics_Socials/SportsThreadChart2.png" alt="Sports Thread Chart 2">
-            <p>Analysis of all Sports Thread's competitors highlighting why clients should work with Sports Thread.  This is intended for the sales team to help them close deals</p>
+            <p>Analysis of all Sports Thread's competitors with emphasis on key features and services offered.</p>
         </div>
         <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/SportsThreadTwitterPost.jpg" alt="Sports Thread Twitter Post">
-            <p>A post I created in Canva highlighting Sports Thread's event marketing services, additionally, I want to point out that they have amassed around 200K followers on X.</p>
-        </div>
-        <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/TicketingGifSportsThread.gif" alt="Ticketing GIF Sports Thread">
-            <p>GIF created in Canva made for gate administrators to instruct them on how to scan their tickets, seems easy but this just makes it that much more simple!</p>
-        </div>
-        <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/Tiger.jpg" alt="Tiger">
-            <p>Description for Tiger image.</p>
-        </div>
-        <div class="image-section">
-            <img src="imagefolder/Graphics_Socials/VisitDuluthSunRise.png" alt="Visit Duluth Sunrise">
-            <p>Description for Visit Duluth Sunrise image.</p>
+            <img src="imagefolder/Graphics_Socials/WealthyWarriorLogo.png" alt="Wealthy Warrior Logo">
+            <p>Description for Wealthy Warrior Logo image.</p>
         </div>
     </div>
-<h2>Video Gallery</h2>
+
+    <h2>Video Gallery</h2>
     <div class="video-gallery">
         <div class="video-section">
             <iframe src="https://www.youtube.com/embed/8LJLfZAtAGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -178,14 +174,11 @@
             <iframe src="https://www.youtube.com/embed/-AHHHVu_lSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>Description for Video 2</p>
         </div>
+        <!-- Additional videos can be added here -->
+    </div>
 
-
-    <!-- Button to update the content -->
-    <button id="updateButton">Click Me!</button>
-
-    <script src="script.js"></script> <!-- Linking to JavaScript file -->
- <footer>
- <p>&copy; 2024 Jake Hausmann. All rights reserved.</p>
+    <footer>
+        <p>&copy; 2024 Jake Hausmann. All rights reserved.</p>
     </footer>
 </body>
 </html>
